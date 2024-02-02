@@ -54,7 +54,7 @@ export default function Home() {
       
       <div className='home-second-part'>
         <div>
-          <img src='/src/assets/Saly-11.png' alt='avatar' className='avatar'/>
+          <img src='./Saly-11.png' alt='avatar' className='avatar'/>
       </div>
     </div>
     

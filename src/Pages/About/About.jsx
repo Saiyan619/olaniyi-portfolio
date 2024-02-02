@@ -36,7 +36,7 @@ export default function About() {
       </div>
       
       <div className='about-right'>
-        <img src='/src/assets/avatar-1.png' alt='avatar-2' className='avatar-2'/>
+        <img src='./avatar-1.png' alt='avatar-2' className='avatar-2'/>
         </div>
     
     </div>

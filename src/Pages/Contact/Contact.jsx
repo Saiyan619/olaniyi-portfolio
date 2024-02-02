@@ -28,12 +28,12 @@ export default function Contact() {
       exit={{ opacity: 0, x: 20 }}
           transition={{ duration: 0.5, delay: 1.2 }} className='reachout-container'>
         <div className='gmail-container'>
-          <img style={{width:"30px"}} src='/src/assets/icons8-gmail-48.png' alt='gmail' />
+          <img style={{width:"30px"}} src='./icons8-gmail-48.png' alt='gmail' />
           <span>arokoyueb11@gmail.com</span>
         </div>
         
         <div className='phone-container'>
-          <img style={{width:"30px"}} src='/src/assets/icons8-phone-48.png' alt='phone' />
+          <img style={{width:"30px"}} src='./icons8-phone-48.png' alt='phone' />
           <span>08169615422</span>
           </div>
       </motion.div>
