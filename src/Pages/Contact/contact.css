@@ -1,0 +1,57 @@
+h5{
+    font-size: 60px;
+}
+.contact-container{
+    text-align: center;
+    padding: 20px;
+    height: 90vh;
+    margin-top: 20px;
+}
+.contact-container p{
+    width: 70%;
+}
+.contact-brief-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reachout-container{
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.gmail-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.phone-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+@media screen and (max-width:500px) {
+    .reachout-container{
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .contact-brief-container p{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    
+}

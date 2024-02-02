@@ -1,0 +1,35 @@
+.footer-container{
+    background-color: #0f0f0f;
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 5px 20px;
+    align-items: center;
+}
+
+p{font-size: 15px;}
+.footer-right-side{
+    display: flex;
+    gap: 20px;
+}.footer-right-side span{
+    font-size: 15px;
+    margin-top:10px
+}
+
+@media screen and (max-width:800px) {
+    .footer-container{
+        background-color: #0f0f0f;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+    .footer-right-side{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+        gap: 0px;
+    }
+    
+}

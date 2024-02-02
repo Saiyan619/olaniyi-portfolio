@@ -1,0 +1,134 @@
+.home-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.home-first-part{
+    
+}
+.home-second-part{
+}
+.home-first-part2{
+    
+}
+
+.im-word{font-size: 50px; text-transform: capitalize;}
+.first-name{
+    font-size: 100px;
+    z-index: 1;
+    /* font-family: 'Teko', sans-serif;  */
+    font-family: 'Abel', sans-serif;
+    font-weight: 900;
+}
+.last-name{
+    font-size: 100px;
+    z-index: 1;
+    /* font-family: 'Teko', sans-serif;  */
+    font-family: 'Abel', sans-serif;
+    font-weight: 900;
+}
+
+h2{ 
+    font-size: 50px;
+    text-transform: capitalize;
+    z-index: 1;
+}
+
+.shadow-text{
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    font-size: 300px;
+    color: rgba(145, 143, 143, 0.123);
+    z-index: 0;
+}
+
+.page-number{
+    font-size: 50px;
+}
+.line1{
+   background-color: white;
+   height: 1px;
+   width: 100px; 
+}
+.line2{
+    background-color: white;
+   height: 50px;
+   width: 1px; 
+}
+.home-under-line{
+    font-size: 20px;
+}
+
+p{
+    z-index: 1;
+    font-family: 'Onest', sans-serif;
+    margin-top: 20px;
+}
+
+.avatar{
+    width: 350px;
+}
+
+.my-profession{
+    font-style: italic;
+}
+
+
+@media screen and (min-width:1024px) {
+    .home-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 20px;
+    }
+    
+    .im-word{font-size: 100px; text-transform: capitalize;}
+    .first-name{
+        font-size: 200px;
+        z-index: 1;
+        /* font-family: 'Teko', sans-serif;  */
+        font-family: 'Abel', sans-serif;
+        font-weight: 900;
+    }
+    .last-name{
+        font-size: 200px;
+        z-index: 1;
+        /* font-family: 'Teko', sans-serif;  */
+        font-family: 'Abel', sans-serif;
+        font-weight: 900;
+    }
+    
+    h2{ 
+        font-size: 50px;
+        text-transform: capitalize;
+        z-index: 1;
+    }
+    
+    .shadow-text{
+        position: absolute;
+        top: 15%;
+        left: 15%;
+        font-size: 500px;
+        color: rgba(145, 143, 143, 0.123);
+        z-index: 0;
+    }
+
+    .avatar{
+        width: 800px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+
+    .avatar{
+        width: 400px;
+    }
+}@media screen and (min-width:1440px) {
+
+    .avatar{
+        width: 800px;
+    }
+}
+

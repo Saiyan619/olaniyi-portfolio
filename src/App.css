@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300&family=Poppins:wght@100;200;300;400;500;600;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300&family=Teko:wght@300;400;500;600;700&family=Ubuntu:wght@300;400;500;700&display=swap');
+/* font-family: 'Teko', sans-serif; for teko */
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300&family=Poppins:wght@100;200;300;400;500;600;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300&family=Teko:wght@300;400;500;600;700&family=Ubuntu:wght@300;400;500;700&display=swap');
+/* font-family: 'Abel', sans-serif; for abel  */
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300&family=Onest:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300&family=Teko:wght@300;400;500;600;700&family=Ubuntu:wght@300;400;500;700&display=swap');
+/* font-family: 'Onest', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Handjet:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300&family=Onest:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300&family=Teko:wght@300;400;500;600;700&family=Ubuntu:wght@300;400;500;700&display=swap');
+/* font-family: 'Handjet', sans-serif; */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+.App{
+  background: #20002c;  
+  height: 100%;
+  width: 100%;
+  background: -webkit-linear-gradient(to right, #cbb4d4, #20002c);  
+  background: linear-gradient(to right, #171418, #0a010e);;
+  font-family: 'Onest', sans-serif;
+}
