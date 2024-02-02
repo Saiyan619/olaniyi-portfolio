@@ -30,7 +30,7 @@ export default function Home() {
           <motion.div initial={{ opacity: 0, x: -20 }}
       animate={{ opacity: 1, x: 0 }}
       exit={{ opacity: 0, x: 20 }}
-          transition={{ duration: 0.2, delay: 1.4 }} >
+          transition={{ duration: 0.2, delay: 1.2 }} >
           <span className='im-word'>i'm</span>
           <h2><span className='first-name'>olaniyi</span> <br></br>
           <span className='last-name'>arokoyu</span></h2>
