@@ -86,14 +86,14 @@ p{
     
     .im-word{font-size: 100px; text-transform: capitalize;}
     .first-name{
-        font-size: 200px;
+        font-size: 180px;
         z-index: 1;
         /* font-family: 'Teko', sans-serif;  */
         font-family: 'Abel', sans-serif;
         font-weight: 900;
     }
     .last-name{
-        font-size: 200px;
+        font-size: 180px;
         z-index: 1;
         /* font-family: 'Teko', sans-serif;  */
         font-family: 'Abel', sans-serif;

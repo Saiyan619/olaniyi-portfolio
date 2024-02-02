@@ -9,9 +9,9 @@ export default function ProjectCard(props) {
   })
   return (
       <motion.div ref={ref}
-      initial={{ opacity: 0, x: -20 }}
+      initial={{ opacity: 0, x: 20 }}
   animate={InView ? {opacity: 1, x: 0 } : {}}
-  exit={{ opacity: 0, x: 20 }}
+  exit={{ opacity: 0, x: -20 }}
       transition={{ duration: 0.5, delay: 0.1 }} className='main-card-container'>
           <div className='card'>
               

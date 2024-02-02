@@ -38,6 +38,14 @@ export default [
   },
   ,
   {
+    id: 9,
+    image: "./Screenshot 2024-02-02 at 13-43-57 Vite React.png",
+    name: "Expense Tracker",
+    overview: "This React-based application allows users to easily input and track their expenses and incomes, providing a clear overview of their financial journey.",
+    tools: "REACTJS, CSS, LOCAL STORAGE",
+    link: "https://expense-tracker-ashen-six.vercel.app/",
+  } ,
+  {
     id: 7,
     image: "./Web capture_20-10-2023_102652_.jpeg",
     name: "N-Houses",
