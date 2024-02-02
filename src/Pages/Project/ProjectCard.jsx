@@ -19,7 +19,7 @@ export default function ProjectCard(props) {
             
               <div className='project-details'>
           <span>{props.name}</span>
-          <a className='project-link' href={props.link} target="_blank" rel="noopener noreferrer">go to site</a>
+          <a className='project-link' href={props.link} target="_blank" rel="noopener noreferrer">Go to Site</a>
                   <p>{props.overview}</p>
                   <p>Tools: {props.tools}</p>
               </div>
