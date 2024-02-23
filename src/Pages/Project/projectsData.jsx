@@ -16,6 +16,13 @@ export default [
       "Nworld is a dynamic and secure chat application, marking its debut with a robust foundation built using React. This version includes essential features such as user authentication, real-time text, and image messaging capabilities. The interface is designed for seamless conversations, offering users a delightful experience while leaving ample room for future upgrades and enhancements.",
     tools: "REACTJS, CSS, FIREBASE, MATERIAL UI",
     link: "https://n-world.vercel.app/",
+  },{
+    id: 15,
+    image: "./Screenshot 2024-02-23 at 14-39-13 Vite React.png",
+    name: "Pintrest Clone (Ntrest)",
+    overview:"  Recreating the Pinterest experience, my ongoing project features user authentication, pin creation, comments, and profiles. Developed using Firebase, ReactJS, Tailwind CSS, and Daisy UI. Stay tuned for updates as I bring creativity and inspiration to life.",
+    tools: " FIREBASE, REACTJS, TAILWIND CSS, DAISY UI",
+    link: "https://nterest-clone-app.vercel.app/",
   },
   {
     id: 4,

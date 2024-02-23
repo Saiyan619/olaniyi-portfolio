@@ -18,7 +18,7 @@ export default function Contact() {
       exit={{ opacity: 0, x: 20 }}
           transition={{ duration: 0.5, delay: 1 }} className='contact-brief-container'>
       <p>Are You Interested In A Web Developer That Loves Fun Builds And Projects? Hit Me Up.
-        I'm Open To Internsihps, Freelance, Part Time And Junior Developer Roles. Get In Touch With Me</p>
+        I'm Open To Internsihps, Freelance, Part Time And Full-time Developer Roles. Get In Touch With Me</p>
       </motion.div>
       
       <motion.div
