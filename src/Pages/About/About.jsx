@@ -27,7 +27,7 @@ export default function About() {
       exit={{ opacity: 0, x: 20 }}
           transition={{ duration: 0.2, delay: 1 }}>
       <p>Hello👋, my name is Niyi, I'm a Front-End Developer from Nigeria, West Africa, I'm an Undergraduate in the department of Urban and Regional Planning.</p>
-      <p>I have 2 years total experience using various front-end technologies. and oh, i love foods, alot</p>
+      <p>I have 3 years total experience using various front-end technologies. and oh, i love foods, alot</p>
       <p>Some of the few technologies i've worked with and still use:</p>
       </motion.div>
       <div className='tools-container'>

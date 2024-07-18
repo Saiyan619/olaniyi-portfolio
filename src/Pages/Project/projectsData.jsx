@@ -9,6 +9,21 @@ export default [
     link: "https://sun-web-chi.vercel.app/",
   },
   {
+    id: 28,
+    image: "./localhost_5173_Home.png",
+    name: "BoredIntern (Ongoing)",
+    overview:"Recognizing the challenges interns face in finding suitable opportunities, I conceived and developed BoredIntern, a specialized job board exclusively dedicated to internship postings. This platform aims to streamline the internship search process for students and provide businesses with a targeted pool of potential interns.",
+    tools: "REACTJS, CSS, TAILWIND, DAISY UI, NEXT UI",
+    link: "https://bored-intern-v2.vercel.app/",
+  },{
+    id: 28,
+    image: "./allforone.ai_.png",
+    name: "All For One Crypto website",
+    overview:"I developed a comprehensive website's frontend for the AllForOne cryptocurrency, serving as the primary digital platform for community engagement, information dissemination, and token acquisition. The website was designed to foster trust, transparency, and excitement around the AllForOne project.",
+    tools: "REACTJS, CSS, VITE, ETHERJS",
+    link: "https://allforone.ai/",
+  },
+  {
     id: 5,
     image: "./Screenshot 2024-02-01 at 22-08-55 Vite React.png",
     name: "NWORLD CHAT APP",
