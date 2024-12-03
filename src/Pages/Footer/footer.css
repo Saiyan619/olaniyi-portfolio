@@ -2,16 +2,16 @@
     background-color: #0f0f0f;
     display: flex;
     justify-content: space-between;
-    padding: 18px 5px 20px;
+    padding: 18px 15px 20px;
     align-items: center;
 }
 
-p{font-size: 15px;}
+p{font-size: 11px;}
 .footer-right-side{
     display: flex;
     gap: 20px;
 }.footer-right-side span{
-    font-size: 15px;
+    font-size: 11px;
     margin-top:10px
 }
 

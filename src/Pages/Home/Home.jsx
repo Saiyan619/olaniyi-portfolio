@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className='home-container'>
 
-      <div className='home-first-part'>
+      {/* <div className='home-first-part'>
         <motion.div 
           initial={{ opacity: 0, x: -20 }}
       animate={{opacity: 1, x: 20 }}
@@ -57,6 +57,35 @@ export default function Home() {
           <img src='./Saly-11.png' alt='avatar' className='avatar'/>
       </div>
     </div>
+     */}
+      
+      <div className='home_content_con'>
+      <motion.div 
+          initial={{ opacity: 0, x: -20 }}
+      animate={{opacity: 1, x: 20 }}
+      exit={{ opacity: 0, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.1 }}  className='first_content'>
+          <span>Hi, I am</span>
+        </motion.div>
+
+        <motion.div 
+          initial={{ opacity: 0, x: -20 }}
+      animate={{opacity: 1, x: 20 }}
+      exit={{ opacity: 0, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.3 }} className='second_content'>
+          <span>OLANIYI AROKOYU</span>
+        </motion.div>
+        
+
+        <motion.div 
+          initial={{ opacity: 0, x: -20 }}
+      animate={{opacity: 1, x: 20 }}
+      exit={{ opacity: 0, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.4 }}  className='third_content'>
+          <span>FRONTEND DEVELOPER - WEB3 DEVELOPER</span>
+          <span></span>
+        </motion.div>
+      </div>
     
     </div>
   )

@@ -1,20 +1,36 @@
 export default [
   {
+    id: 22,
+    image: "./Screenshot (2).png",
+    name: "Blok Product Website",
+    overview:
+      "A modern responsive landing page crafted with React and Framer Motion and Lenis. Boasting a modern design with captivating Dark hues,with seamless responsiveness across devices",
+    tools: "REACTJS, CSS, SASS, FRAMER MOTION, Lenis-Scroll",
+    link: "https://blok-sec-test.vercel.app/",
+  },
+  ,
+  {
+    id: 58,
+    image: "./Screenshot 2024-11-20 at 09-34-30 Screenshot.png",
+    name: "Tasky (Ongoing)",
+    overview:"Are you a manager having issues with creating, organizing and supervising shared tasks to employees?, this is the app that solve those problems.",
+    tools: "NextJs, TAILWIND, DAISY UI, NEXT UI, Clerk, ExpressJs, MongoDb",
+    link: "/projects",
+  }, {
+    id: 48,
+    image: "./localhost_5173_Home.png",
+    name: "BoredIntern",
+    overview:"Recognizing the challenges interns face in finding suitable opportunities, I conceived and developed BoredIntern, a specialized job board exclusively dedicated to internship postings. This platform aims to streamline the internship search process for students and provide businesses with a targeted pool of potential interns.",
+    tools: "REACTJS, CSS, TAILWIND, DAISY UI, NEXT UI",
+    link: "https://bored-intern-v2.vercel.app/",
+  },{
     id: 8,
     image: "./Screenshot 2024-02-01 at 22-03-12 Vite React.png",
     name: "SunStudio Website",
     overview:
-      "A vibrant and responsive landing page crafted with React and Framer Motion. Boasting a modern design with captivating orange hues, this page serves as a dynamic showcase of my skills and projects. With seamless responsiveness across devices, the landing page invites visitors to explore a curated portfolio and get a glimpse into my passion for creating engaging web experiences.",
+      "A vibrant and responsive landing page crafted with React and Framer Motion. Boasting a modern design with captivating orange hues,with seamless responsiveness across devices and get a glimpse into my passion for creating engaging web experiences.",
     tools: "REACTJS, CSS, SASS, FRAMER MOTION",
     link: "https://sun-web-chi.vercel.app/",
-  },
-  {
-    id: 28,
-    image: "./localhost_5173_Home.png",
-    name: "BoredIntern (Ongoing)",
-    overview:"Recognizing the challenges interns face in finding suitable opportunities, I conceived and developed BoredIntern, a specialized job board exclusively dedicated to internship postings. This platform aims to streamline the internship search process for students and provide businesses with a targeted pool of potential interns.",
-    tools: "REACTJS, CSS, TAILWIND, DAISY UI, NEXT UI",
-    link: "https://bored-intern-v2.vercel.app/",
   },{
     id: 28,
     image: "./allforone.ai_.png",

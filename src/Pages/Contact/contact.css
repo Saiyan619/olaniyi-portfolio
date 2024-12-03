@@ -36,6 +36,12 @@ h5{
     justify-content: center;
     gap: 15px;
 }
+.twitter-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
 
 @media screen and (max-width:500px) {
     .reachout-container{

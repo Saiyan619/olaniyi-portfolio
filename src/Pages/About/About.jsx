@@ -1,16 +1,13 @@
 import React from 'react'
-import UiBtn from './uiBtn'
+import UiBtn from './Tools'
 import MyToolsData from './MyToolsData'
 import { motion } from 'framer-motion'
 import './about.css'
+import Tools from './Tools'
 
 
 export default function About() {
-  function createBtn(item) {
-    return(<UiBtn
-      key={item.id}
-      name={item.name} />)
-  }
+ 
   return (
     <div className='About-main-container'>
       
@@ -26,13 +23,25 @@ export default function About() {
       animate={{ opacity: 1, x: 0 }}
       exit={{ opacity: 0, x: 20 }}
           transition={{ duration: 0.2, delay: 1 }}>
-      <p>Hello👋, my name is Niyi, I'm a Front-End Developer from Nigeria, West Africa, I'm an Undergraduate in the department of Urban and Regional Planning.</p>
-      <p>I have 3 years total experience using various front-end technologies. and oh, i love foods, alot</p>
+          <p>
+            Hello👋, I'm Niyi a skilled Front-End Developer with a passion for creating seamless digital experiences. I enjoy transforming designs into functional, responsive websites and web apps.
+                </p>
+          <p>
+            I'm always eager to learn and explore new technologies to deliver innovative solutions.
+          </p>
+      <p>I have 3 years total experience using various front-end technologies.</p>
       <p>Some of the few technologies i've worked with and still use:</p>
       </motion.div>
-      <div className='tools-container'>
+      {/* <div className='tools-container'>
         {MyToolsData.map(createBtn)}
+        </div> */}
+        <div className='tools_container'>
+        {MyToolsData.map((item) => {
+          return <Tools item={item} />
+        })}
         </div>
+        
+        
       </div>
       
       <div className='about-right'>

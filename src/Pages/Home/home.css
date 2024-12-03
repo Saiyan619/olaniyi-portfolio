@@ -1,8 +1,84 @@
 .home-container{
+height: 100vh; 
+display: flex;
+justify-content: center;
+}
+
+.home_content_con{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
+justify-content: center;
+flex-direction: column;
+margin-bottom: 50px;
+}
+
+.first_content > span {
+    font-size: 30px;
+}
+
+.second_content{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.second_content > span {  
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.third_content{
+    margin-top: 30px;
+}
+.third_content > span {
+    font-size: 14px;
+}
+
+@media screen and (max-width:800px) {
+    .home-container{
+        height: 100vh; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-right: 45px;
+        }
+        
+        .home_content_con{
+            display: flex;
+            text-align: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 150px;
+        }
+        
+        .first_content > span {
+            font-size: 30px;
+            text-align: center;
+
+        }
+        
+        .second_content{
+            margin-top: 30px;
+            margin-left: 0px;
+            text-align: center;
+        }
+        .second_content > span {  
+            font-size: 50px;
+            font-weight: bold;
+            text-align: center;
+
+        }
+        
+        .third_content{
+            margin-top: 30px;
+            text-align: center;
+
+        }
+        .third_content > span {
+            font-size: 14px;
+            text-align: center;
+
+        }
+        
 }
 /* .home-first-part{
     
@@ -12,19 +88,17 @@
 .home-first-part2{
     
 } */
-
+/* 
 .im-word{font-size: 50px; text-transform: capitalize;}
 .first-name{
     font-size: 100px;
     z-index: 1;
-    /* font-family: 'Teko', sans-serif;  */
     font-family: 'Abel', sans-serif;
     font-weight: 900;
 }
 .last-name{
     font-size: 100px;
     z-index: 1;
-    /* font-family: 'Teko', sans-serif;  */
     font-family: 'Abel', sans-serif;
     font-weight: 900;
 }
@@ -65,17 +139,17 @@ p{
     z-index: 1;
     font-family: 'Onest', sans-serif;
     margin-top: 20px;
-}
+} */
 
-.avatar{
+/* .avatar{
     width: 350px;
 }
 
 .my-profession{
     font-style: italic;
-}
+} */
 
-
+/* 
 @media screen and (min-width:1024px) {
     .home-container{
         display: flex;
@@ -88,14 +162,12 @@ p{
     .first-name{
         font-size: 180px;
         z-index: 1;
-        /* font-family: 'Teko', sans-serif;  */
         font-family: 'Abel', sans-serif;
         font-weight: 900;
     }
     .last-name{
         font-size: 180px;
         z-index: 1;
-        /* font-family: 'Teko', sans-serif;  */
         font-family: 'Abel', sans-serif;
         font-weight: 900;
     }
@@ -131,4 +203,4 @@ p{
         width: 800px;
     }
 }
-
+ */

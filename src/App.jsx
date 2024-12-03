@@ -10,6 +10,7 @@ function App() {
 
   return (
     <div className='App'>
+            <div className='glow_div'></div>
       <BrowserRouter>
       <NavBar />
         <Routes>
