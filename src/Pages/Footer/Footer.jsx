@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <div className='footer-container'>
           <div className='footer-left-side'>
-              <p>&copy; 2023 Built by OLANIYI. All Rights Reserved.</p>
+              <p>&copy; 2024 Built by OLANIYI. All Rights Reserved.</p>
       </div>
           <div className='footer-right-side'>
         <span>"<i>Less perfection, more authenticity.</i>"</span>
