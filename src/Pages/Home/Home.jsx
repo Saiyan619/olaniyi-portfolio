@@ -85,7 +85,21 @@ export default function Home() {
           <span>FRONTEND DEVELOPER - WEB3 DEVELOPER</span>
           <span></span>
         </motion.div>
+
+        
+        <div className='last_hero_content'>
+          <span className='action_one'>Check out my Works &rarr;</span>
+          
+          <span className='action_two'>
+          <a href="/Arokoyu-Niyi-Resume.pdf" download="Arokoyu-Niyi-Resume.pdf">
+  Download CV
+</a>
+        </span>
+        </div>
+        
       </div>
+      {/* <a href="/Arokoyu-Niyi-Resume.pdf" download="Your CV">Download CV</a> */}
+     
     
     </div>
   )

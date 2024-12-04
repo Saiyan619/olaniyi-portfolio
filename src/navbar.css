@@ -168,7 +168,7 @@ li{
 
 .time_date{
     display: flex;
-    align-items: center;
+    align-items: end;
     flex-direction: column;
 }.time_date > span{
     font-size: 15px;
@@ -193,6 +193,7 @@ li{
   backdrop-filter: blur(10px);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 100px;
+    margin-top: 7px;
 }
 
 .nav{
@@ -249,6 +250,7 @@ li{
 .time_date{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 }
