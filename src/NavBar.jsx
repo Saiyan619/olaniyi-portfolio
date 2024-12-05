@@ -59,7 +59,7 @@ const currentDate = moment().format('MMMM D, YYYY');
         */}
       
       <div className='navbar_container'>
-        <div><span>OLANIYI</span></div>
+        <div><Link onClick={toggleMenu} className='list-link' to='/'><span>OLANIYI</span></Link></div>
 
         <div className='hamburger'>
         <Hamburger size={20}  toggled={isOpen} toggle={setOpen} />
