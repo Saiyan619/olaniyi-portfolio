@@ -17,10 +17,12 @@ export default function ProjectCard(props) {
               
                   <img src={props.image} alt='pics' className='project-img'/>
             
-              <div className='project-details'>
+        <div className='project-details'>
+          <div className='sub_project_details'>
           <span>{props.name}</span>
           <a className='project-link' href={props.link} target="_blank" rel="noopener noreferrer">Go to Site</a>
-                  <p>{props.overview}</p>
+          </div>
+            <p>{props.overview}</p>
                   <p>Tools: {props.tools}</p>
               </div>
               <div className='project-btn'></div>
