@@ -88,17 +88,20 @@ export default function Home() {
 
         
         <div className='last_hero_content'>
-          <span className='action_one'>Check out my Works &rarr;</span>
+          
+
           
           <span className='action_two'>
           <a href="/Arokoyu-Niyi-Resume.pdf" download="Arokoyu-Niyi-Resume.pdf">
   Download CV
 </a>
-        </span>
+          </span>
+          
+          <span ><Link className='action_one' to='/projects'>Check out my Works &rarr;</Link></span>
+
         </div>
         
       </div>
-      {/* <a href="/Arokoyu-Niyi-Resume.pdf" download="Your CV">Download CV</a> */}
      
     
     </div>
