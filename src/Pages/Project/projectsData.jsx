@@ -8,7 +8,7 @@ export default [
     tools: "REACTJS, CSS, SASS, FRAMER MOTION, Lenis-Scroll",
     link: "https://blok-sec-test.vercel.app/",
   },
-  ,
+  
   {
     id: 58,
     image: "./Screenshot 2024-11-20 at 09-34-30 Screenshot.png",

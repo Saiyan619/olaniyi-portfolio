@@ -39,7 +39,7 @@ export default function Contact() {
         
         <div className='twitter-container'>
           <img style={{width:"30px"}} src='./11053969_x_logo_twitter_new_brand_icon.png' alt='phone' />
-          <span>Niyi/@cognac3000</span>
+          <span>Niyi/@Niyi_dev</span>
           </div>
       </motion.div>
     </div>

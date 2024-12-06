@@ -2,31 +2,56 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer';
 
-export default function ProjectCard(props) {
+export default function ProjectCard({key,
+  name,
+  image,
+  overview,
+  tools,
+  link}) {
   const [ref, InView] = useInView({
     triggerOnce: true,
     threshold:0.2
   })
   return (
-      <motion.div ref={ref}
-      initial={{ opacity: 0, x: 20 }}
-  animate={InView ? {opacity: 1, x: 0 } : {}}
-  exit={{ opacity: 0, x: -20 }}
-      transition={{ duration: 0.5, delay: 0.1 }} className='main-card-container'>
-          <div className='card'>
+  //     <motion.div ref={ref}
+  //     initial={{ opacity: 0, x: 20 }}
+  // animate={InView ? {opacity: 1, x: 0 } : {}}
+  // exit={{ opacity: 0, x: -10 }}
+  //     transition={{ duration: 0.5, delay: 0.1 }} key={key} className='main-card-container'>
+  //         <div className='card'>
               
-                  <img src={props.image} alt='pics' className='project-img'/>
+  //                 <img src={image} alt='pics' className='project-img'/>
             
-        <div className='project-details'>
-          <div className='sub_project_details'>
-          <span>{props.name}</span>
-          <a className='project-link' href={props.link} target="_blank" rel="noopener noreferrer">Go to Site</a>
+  //       <div className='project-details'>
+  //         <div className='sub_project_details'>
+  //         <span>{name}</span>
+  //         <a className='project-link' href={link} target="_blank" rel="noopener noreferrer">Go to Site</a>
+  //         </div>
+  //           <p>{overview}</p>
+  //                 <p>Tools: {tools}</p>
+  //             </div>
+  //             <div className='project-btn'></div>
+  //         </div>
+    //   </motion.div>
+    
+    <motion.div ref={ref}
+        initial={{ opacity: 0, x: 20 }}
+    animate={InView ? {opacity: 1, x: 0 } : {}}
+    exit={{ opacity: 0, x: -10 }}
+        transition={{ duration: 0.5, delay: 0.1 }} key={key} className='card_container'>
+      <div className='card_img_container'><img src={image} alt="card_image" className='card_img' /></div>
+      
+      <div>
+        <div className='title_link_container'> 
+          <span>{name}</span>
+           <a className='project-link' href={link} target="_blank" rel="noopener noreferrer">Go to Site</a>
           </div>
-            <p>{props.overview}</p>
-                  <p>Tools: {props.tools}</p>
-              </div>
-              <div className='project-btn'></div>
-          </div>
+
+        <div className='overview_tools_container'>
+          <span>{overview}</span>
+          <span>Tools: {tools}</span>
+        </div>
+      </div>
     </motion.div>
   )
 }

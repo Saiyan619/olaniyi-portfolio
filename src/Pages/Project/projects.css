@@ -8,11 +8,14 @@
 /* .project-hero-text-con{
     position: sticky;
 } */
-h6{
+/* h6{
     
     font-size: 60px;
 }
 
+.main-card-container{
+    padding: 10px;
+}
 
 .card{
     padding: 20px 20px 5px;
@@ -20,9 +23,6 @@ h6{
     place-items: center;
     background-color: rgb(47, 36, 61);
     margin-top: 20px;
-    width: 70%;
-    overflow: hidden;
-    position: relative;
 }
 
 
@@ -52,48 +52,103 @@ h6{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-end;
+} */
+
+.hero_text_card_container{
+    display: flex;
+    justify-content: space-between;
+}
+.project-hero-text-con{
+    position: fixed;
+    position: relative;
+    top: 20%;
+}
+h6{
+    font-size: 40px;
+    margin-left: 30px;
+    position: sticky;
+    top: 50px;
+}
+
+.project_card_container_for_padding{
+    padding: 40px;
+}
+
+.card_container{
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(47, 36, 61);
+    margin-top: 20px;
+}
+
+.card_img_container{
+    width: 100%;
+}
+.card_img{
+    width: 100%;
+}
+
+.title_link_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.overview_tools_container{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 11px;
+}
+
+a{
+    font-size: 13px;
 }
 
 
-.page-container {
-    display: flex;
-  }
   
-  .sticky-component {
-    position: fixed;
-    top: 10;
-    padding: 20px;
-    width: 200px; 
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .scroll-component {
-    /* flex-grow: 1; */
-    padding: 20px;
-    margin-left: 300px;
-  }
+
+
   
 @media screen and (max-width:800px) {
-    /* .main-project-container{
+    
+.hero_text_card_container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.project-hero-text-con{
+    position: relative;
+    position: relative;
+    top: 0%;
+    margin-top: 20px;
+}
+h6{
+    font-size: 40px;
+    margin-left: 30px;
+    position: sticky;
+    top: 0px;
+}
+
+    .project_card_container_for_padding{
         padding: 20px;
-        display: flex;
-        flex-direction: column;
-    } */
-    .page-container {
-        display: flex;
-        flex-direction: column;
-      }
-      .sticky-component {
-        position: relative;
-        padding: 20px;
-        width: 200px;
-        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-      }
-      
-      .scroll-component {
-        padding: 20px;
-        margin-left: 10px;
-      }
+    }
+    
+    .card_container{
+        width: 100%;
+        padding: 10px;
+        background-color: rgb(47, 36, 61);
+        margin-top: 20px;
+    }
+    
+    .card_img_container{
+        width: 100%;
+    }
+    .card_img{
+        width: 100%;
+    }
+ 
+/* 
     h6{
         font-size: 30px;
     }
@@ -112,5 +167,5 @@ h6{
         font-size: 10px;
     }.project-link {
         font-size: 12px;
-    } 
+    }  */
 }
