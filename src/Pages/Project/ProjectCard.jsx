@@ -13,27 +13,7 @@ export default function ProjectCard({key,
     threshold:0.2
   })
   return (
-  //     <motion.div ref={ref}
-  //     initial={{ opacity: 0, x: 20 }}
-  // animate={InView ? {opacity: 1, x: 0 } : {}}
-  // exit={{ opacity: 0, x: -10 }}
-  //     transition={{ duration: 0.5, delay: 0.1 }} key={key} className='main-card-container'>
-  //         <div className='card'>
-              
-  //                 <img src={image} alt='pics' className='project-img'/>
-            
-  //       <div className='project-details'>
-  //         <div className='sub_project_details'>
-  //         <span>{name}</span>
-  //         <a className='project-link' href={link} target="_blank" rel="noopener noreferrer">Go to Site</a>
-  //         </div>
-  //           <p>{overview}</p>
-  //                 <p>Tools: {tools}</p>
-  //             </div>
-  //             <div className='project-btn'></div>
-  //         </div>
-    //   </motion.div>
-    
+ 
     <motion.div ref={ref}
         initial={{ opacity: 0, x: 20 }}
     animate={InView ? {opacity: 1, x: 0 } : {}}
