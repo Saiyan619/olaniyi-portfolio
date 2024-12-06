@@ -38,6 +38,7 @@ margin-bottom: 50px;
     margin-top: 50px;
     gap: 20px;
     margin-left: 60px;
+    flex-wrap: wrap;
 }
 .last_hero_content > span{
     font-size: 12px;

@@ -32,28 +32,28 @@ const ScrollComponent = () => {
 };
 
 export default function Projects() {
-  // function createProjectCard(project) {
-  //   return (<ProjectCard
-  //     key={project.id}
-  //     name={project.name}
-  //     image={project.image}
-  //     overview={project.overview}
-  //     tools={project.tools}
-  //     link={project.link}
-  //   />)
-  // }
+  function createProjectCard(project) {
+    return (<ProjectCard
+      key={project.id}
+      name={project.name}
+      image={project.image}
+      overview={project.overview}
+      tools={project.tools}
+      link={project.link}
+    />)
+  }
   return (
     // <div className='main-project-container'>
     <div className="page-container">
       <StickyComponent />
       <ScrollComponent />
       
-      {/* <div className='project-hero-text-con'>
+      <div className='project-hero-text-con'>
         <h6>My Projects</h6>
         </div>
       <div>
       {projectsData.map(createProjectCard)}
-      </div> */}
+      </div>
     </div>
   )
 }
