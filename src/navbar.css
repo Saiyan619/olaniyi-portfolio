@@ -165,6 +165,9 @@ li{
     font-size: 12px;
 }
 
+.list-link{
+    text-decoration: none;
+}
 
 .time_date{
     display: flex;
