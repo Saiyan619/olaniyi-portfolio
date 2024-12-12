@@ -89,7 +89,6 @@ export default function Home() {
         
         <div className='last_hero_content'>
           
-
           
           <span className='action_two'>
           <a href="/Arokoyu-Niyi-Resume.pdf" download="Arokoyu-Niyi-Resume.pdf">

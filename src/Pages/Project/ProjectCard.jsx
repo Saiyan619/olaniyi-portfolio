@@ -24,14 +24,24 @@ export default function ProjectCard({key,
       <div>
         <div className='title_link_container'> 
           <span>{name}</span>
-           <a className='project-link' href={link} target="_blank" rel="noopener noreferrer">Go to Site</a>
+           {/* <a className='project-link' href={link} target="_blank" rel="noopener noreferrer">Go to Site</a> */}
           </div>
 
         <div className='overview_tools_container'>
           <span>{overview}</span>
           <span>Tools: {tools}</span>
         </div>
+
+        
       </div>
+
+      <div className='link_container'>
+        <a className='project-link' href={link} target="_blank" rel="noopener noreferrer">
+          <span className='live_preview_link'>
+                     Live Preview
+          </span>
+          </a>
+        </div>
     </motion.div>
   )
 }

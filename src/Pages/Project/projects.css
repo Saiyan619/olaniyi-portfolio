@@ -23,6 +23,7 @@ h6{
     padding: 10px;
     background-color: rgb(47, 36, 61);
     margin-top: 20px;
+    position: relative;
 }
 
 .card_img_container{
@@ -43,13 +44,27 @@ h6{
     flex-direction: column;
     gap: 10px;
     font-size: 11px;
+    margin-top: 10px;
 }
 
 a{
     font-size: 13px;
+    text-decoration: none;
 }
 
-
+.link_container{
+    margin-top: 10px;
+    background-color: purple;
+    padding: 7px 30px;
+    border-radius: 10px;
+    width: 20%;
+}
+.live_preview_link{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
   
 
 
@@ -92,4 +107,23 @@ h6{
         width: 100%;
     }
 
+    a{
+        font-size: 13px;
+        text-decoration: none;
+    }
+    
+    .link_container{
+        margin-top: 10px;
+        background-color: rgb(79, 20, 79);
+        padding: 7px 0px;
+        border-radius: 10px;
+        width: 60%;
+    }
+    .live_preview_link{
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+      
 }
