@@ -24,7 +24,6 @@ export default function ProjectCard({key,
       <div>
         <div className='title_link_container'> 
           <span>{name}</span>
-           {/* <a className='project-link' href={link} target="_blank" rel="noopener noreferrer">Go to Site</a> */}
           </div>
 
         <div className='overview_tools_container'>

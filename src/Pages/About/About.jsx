@@ -32,9 +32,6 @@ export default function About() {
       <p>I have 3 years total experience using various front-end technologies.</p>
       <p>Some of the few technologies i've worked with and still use:</p>
       </motion.div>
-      {/* <div className='tools-container'>
-        {MyToolsData.map(createBtn)}
-        </div> */}
         <div className='tools_container'>
         {MyToolsData.map((item) => {
           return <Tools item={item} />
