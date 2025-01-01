@@ -15,7 +15,7 @@ export default [
     name: "Tasky (Ongoing)",
     overview:"Are you a manager having issues with creating, organizing and supervising shared tasks to employees?, this is the app that solve those problems.",
     tools: "NextJs, TAILWIND, DAISY UI, NEXT UI, Clerk, ExpressJs, MongoDb",
-    link: "/projects",
+    link: "https://tasky-webb-app.vercel.app/",
   }, {
     id: 48,
     image: "./localhost_5173_Home.png",
@@ -32,6 +32,27 @@ export default [
     tools: "REACTJS, CSS, SASS, FRAMER MOTION",
     link: "https://sun-web-chi.vercel.app/",
   },{
+    id: 282,
+    image: "./Screenshot 2025-01-01 at 09-01-04 Vite React.png",
+    name: "Foo-Dogs Nft website",
+    overview:"A NFT website for Foo-Dogs, a collection of 10,000 unique NFTs inspired by the Chinese guardian lions. The website was designed to showcase the collection, provide information on the project, and facilitate the minting process for users. The website was developed using React, CSS, Vite, and EtherJS.",
+    tools: "REACTJS, CSS, VITE, ETHERJS",
+    link: "https://foodogs-nft.vercel.app/",
+  },,{
+    id: 283,
+    image: "./Screenshot 2025-01-01 at 08-58-12 Vite React.png",
+    name: "Doogie Memecoin website",
+    overview:"A memecoin for the Doogie community, a group of crypto enthusiasts and investors. The website was designed to provide information on the Doogie project, tokenomics, and roadmap. The website was developed using React, CSS, Vite, and EtherJS.",
+    tools: "REACTJS, CSS, VITE",
+    link: "https://doggie-memecoin-website.vercel.app/",
+  },,{
+    id: 284,
+    image: "./Screenshot 2025-01-01 at 09-00-31 Vite React.png",
+    name: "Coldfield memecoin website",
+    overview:"I developed a comprehensive website's frontend for the coldfield memecoin, serving as the primary digital platform for community engagement, information dissemination, and token acquisition. The website was designed to foster trust, transparency, and excitement around the coldfield project.",
+    tools: "REACTJS, CSS, VITE",
+    link: "https://coldfield-memecoin-website.vercel.app/",
+  },,{
     id: 28,
     image: "./allforone.ai_.png",
     name: "All For One Crypto website",
