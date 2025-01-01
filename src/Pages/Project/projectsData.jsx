@@ -5,7 +5,7 @@ export default [
     name: "Blok Product Website",
     overview:
       "A modern responsive landing page crafted with React and Framer Motion and Lenis. Boasting a modern design with captivating Dark hues,with seamless responsiveness across devices",
-    tools: "REACTJS, CSS, SASS, FRAMER MOTION, Lenis-Scroll",
+    tools: "NEXTJS, CSS, SASS, FRAMER MOTION, Lenis-Scroll",
     link: "https://blok-sec-test.vercel.app/",
   },
   
@@ -14,7 +14,7 @@ export default [
     image: "./Screenshot 2024-11-20 at 09-34-30 Screenshot.png",
     name: "Tasky (Ongoing)",
     overview:"Are you a manager having issues with creating, organizing and supervising shared tasks to employees?, this is the app that solve those problems.",
-    tools: "NextJs, TAILWIND, DAISY UI, NEXT UI, Clerk, ExpressJs, MongoDb",
+    tools: "NEXTJS, TAILWIND, DAISY UI, NEXT UI, CLERK, EXPRESSJS, MONGODB",
     link: "https://tasky-webb-app.vercel.app/",
   }, {
     id: 48,
