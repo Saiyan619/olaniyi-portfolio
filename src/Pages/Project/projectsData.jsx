@@ -21,7 +21,7 @@ export default [
     image: "./localhost_5173_Home.png",
     name: "BoredIntern",
     overview:"Recognizing the challenges interns face in finding suitable opportunities, I conceived and developed BoredIntern, a specialized job board exclusively dedicated to internship postings. This platform aims to streamline the internship search process for students and provide businesses with a targeted pool of potential interns.",
-    tools: "REACTJS, CSS, TAILWIND, DAISY UI, NEXT UI",
+    tools: "REACTJS, CSS, TAILWIND, DAISY UI, NEXT UI, FIREBASE",
     link: "https://bored-intern-v2.vercel.app/",
   },{
     id: 8,

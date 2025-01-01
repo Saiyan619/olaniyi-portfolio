@@ -38,8 +38,13 @@ export default function Contact() {
         </div>
         
         <div className='twitter-container'>
-          <img style={{width:"30px"}} src='./11053969_x_logo_twitter_new_brand_icon.png' alt='phone' />
-          <span>Niyi/@Niyi_dev</span>
+          <img style={{width:"30px"}} src='./11053969_x_logo_twitter_new_brand_icon.png' alt='twitter' />
+          <a href="https://x.com/Niyi_dev">Niyi/@Niyi_dev</a>
+        </div>
+        
+        <div className='twitter-container'>
+          <img style={{width:"30px"}} src='./github-logo.png' alt='github' />
+          <a href="https://github.com/Saiyan619">Saiyan619</a>
           </div>
       </motion.div>
     </div>

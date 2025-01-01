@@ -6,6 +6,8 @@ h5{
     padding: 20px;
     height: 90vh;
     margin-top: 20px;
+    position: relative;
+    z-index: 10000000;
 }
 .contact-container p{
     width: 70%;
@@ -22,6 +24,7 @@ h5{
     align-items: center;
     justify-content: center;
     gap: 50px;
+    z-index: 10000000;
 }
 
 .gmail-container{
