@@ -49,7 +49,19 @@ export default [{
     name: "MongoDb",
     img:"./1012822_code_development_logo_mongodb_programming_icon.png"
     },{
-    id: 10,
+    id: 15,
+    name: "Solidity",
+    img:"./solidity-icon.png"
+    },{
+    id: 16,
+    name: "EtherJs",
+    img:"./ethers-seeklogo.svg"
+    },{
+    id: 103,
+    name: "Ethereum",
+    img:"./ethereum-eth-icon.png"
+    },{
+    id: 102,
     name: "git",
     img:"./2993773_git_social media_icon.png"
     }]

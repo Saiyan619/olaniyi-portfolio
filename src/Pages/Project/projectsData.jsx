@@ -8,22 +8,38 @@ export default [
     tools: "NEXTJS, CSS, SASS, FRAMER MOTION, Lenis-Scroll",
     link: "https://blok-sec-test.vercel.app/",
   },
-  
   {
     id: 58,
     image: "./Screenshot 2024-11-20 at 09-34-30 Screenshot.png",
-    name: "Tasky (Ongoing)",
+    name: "Tasky",
     overview:"Are you a manager having issues with creating, organizing and supervising shared tasks to employees?, this is the app that solve those problems.",
     tools: "NEXTJS, TAILWIND, DAISY UI, NEXT UI, CLERK, EXPRESSJS, MONGODB",
     link: "https://tasky-webb-app.vercel.app/",
-  }, {
+  },
+  {
+    id: 481,
+    image: "./Screenshot 2025-03-07 at 21-10-15 Vite React.png",
+    name: "VoteVerse Web3 - Decentralized Voting DApp",
+    overview:"To promote transparency and fairness in decision-making, I built a decentralized voting application on the blockchain. This DApp ensures secure, tamper-proof voting by leveraging smart contracts, allowing users to create proposals, cast votes, and track results in real time. The goal is to provide a trustless and censorship-resistant voting system for communities and organizations.",
+    tools: "REACTJS, SOLIDITY, HardHat, EthersJs, CSS, TAILWIND, DAISY UI",
+    link: "https://vote-verse-web3.vercel.app/",
+  },
+  {
+    id: 482,
+    image: "./Screenshot 2025-03-07 at 21-06-38 Vite React.png",
+    name: "My-Estate - Full-Stack Real Estate Platform",
+    overview:"Understanding the need for a seamless property listing and discovery experience, I built a full-stack real estate platform that connects buyers, sellers, and renters. This application allows users to list properties, search for homes based on preferences, and manage real estate transactions efficiently. With a user-friendly interface and a robust backend, the platform streamlines property management for both individuals and businesses.",
+    tools: "REACTJS, NODEJS, EXPRESSJS, axios, CSS, TAILWIND, DAISY UI, CLERK",
+    link: "https://my-estate-wheat.vercel.app/",
+  },  {
     id: 48,
     image: "./localhost_5173_Home.png",
     name: "BoredIntern",
     overview:"Recognizing the challenges interns face in finding suitable opportunities, I conceived and developed BoredIntern, a specialized job board exclusively dedicated to internship postings. This platform aims to streamline the internship search process for students and provide businesses with a targeted pool of potential interns.",
     tools: "REACTJS, CSS, TAILWIND, DAISY UI, NEXT UI, FIREBASE",
     link: "https://bored-intern-v2.vercel.app/",
-  },{
+  },
+  {
     id: 8,
     image: "./Screenshot 2024-02-01 at 22-03-12 Vite React.png",
     name: "SunStudio Website",
@@ -38,21 +54,21 @@ export default [
     overview:"A NFT website for Foo-Dogs, a collection of 10,000 unique NFTs inspired by the Chinese guardian lions. The website was designed to showcase the collection, provide information on the project, and facilitate the minting process for users. The website was developed using React, CSS, Vite, and EtherJS.",
     tools: "REACTJS, CSS, VITE, ETHERJS",
     link: "https://foodogs-nft.vercel.app/",
-  },,{
+  },{
     id: 283,
     image: "./Screenshot 2025-01-01 at 08-58-12 Vite React.png",
     name: "Doogie Memecoin website",
     overview:"A memecoin for the Doogie community, a group of crypto enthusiasts and investors. The website was designed to provide information on the Doogie project, tokenomics, and roadmap. The website was developed using React, CSS, Vite, and EtherJS.",
     tools: "REACTJS, CSS, VITE",
     link: "https://doggie-memecoin-website.vercel.app/",
-  },,{
+  },{
     id: 284,
     image: "./Screenshot 2025-01-01 at 09-00-31 Vite React.png",
     name: "Coldfield memecoin website",
     overview:"I developed a comprehensive website's frontend for the coldfield memecoin, serving as the primary digital platform for community engagement, information dissemination, and token acquisition. The website was designed to foster trust, transparency, and excitement around the coldfield project.",
     tools: "REACTJS, CSS, VITE",
     link: "https://coldfield-memecoin-website.vercel.app/",
-  },,{
+  },{
     id: 28,
     image: "./allforone.ai_.png",
     name: "All For One Crypto website",

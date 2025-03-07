@@ -24,12 +24,12 @@ export default function About() {
       exit={{ opacity: 0, x: 20 }}
           transition={{ duration: 0.2, delay: 1 }}>
           <p>
-            Hello👋, I'm Niyi a skilled Front-End Developer with a passion for creating seamless digital experiences. I enjoy transforming designs into functional, responsive websites and web apps.
+            Hello👋, I'm Niyi a skilled Front-End Developer with a passion for creating seamless digital experiences in the Web2 and Web3 space. I enjoy transforming designs into functional, responsive websites and web apps.
                 </p>
           <p>
             I'm always eager to learn and explore new technologies to deliver innovative solutions.
           </p>
-      <p>I have 3 years total experience using various front-end technologies.</p>
+      <p>With more than 3 years of professional experience using various front-end technologies.</p>
       <p>Some of the few technologies i've worked with and still use:</p>
       </motion.div>
         <div className='tools_container'>
