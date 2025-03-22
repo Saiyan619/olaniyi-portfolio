@@ -1,3 +1,8 @@
+.page-container{
+    z-index: 100;
+    position: relative;
+}
+
 .hero_text_card_container{
     display: flex;
     justify-content: space-between;
@@ -70,6 +75,9 @@ a{
 
   
 @media screen and (max-width:800px) {
+    .page-container{
+        z-index: 100;
+    }    
     
 .hero_text_card_container{
     display: flex;
