@@ -43,7 +43,7 @@ export default function Home() {
           
           
           <span className='action_two'>
-          <a href="/Arokoyu-Niyi-Resume.pdf" download="Arokoyu-Niyi-Resume.pdf">
+          <a href="/Arokoyu-Niyi-Ebenezer-Resume.pdf" download="Arokoyu-Niyi-Ebenezer-Resume.pdf">
   Download CV
 </a>
           </span>
