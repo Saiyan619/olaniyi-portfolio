@@ -7,31 +7,59 @@ export default [
       "A modern responsive landing page crafted with React and Framer Motion and Lenis. Boasting a modern design with captivating Dark hues,with seamless responsiveness across devices",
     tools: "NEXTJS, CSS, SASS, FRAMER MOTION, Lenis-Scroll",
     link: "https://blok-sec-test.vercel.app/",
+  },  {
+    id: 122,
+    image: "./Screenshot 2025-06-30 at 10-10-53 Vite React.png",
+    name: "BabyStory AI",
+    overview:
+      "BabyStory AI is an AI-powered web application that generates personalized baby and kids' stories from simple text prompts.",
+    tools: "React + Vite, TAILWINDCSS, DAISYUI, NODEJS, EXPRESS, MONGODB, GEMINI, ZUSTAND",
+    link: "https://baby-story-ai.vercel.app/",
   },
   {
     id: 58,
     image: "./Screenshot 2024-11-20 at 09-34-30 Screenshot.png",
     name: "Tasky",
     overview:"Are you a manager having issues with creating, organizing and supervising shared tasks to employees?, this is the app that solve those problems.",
-    tools: "NEXTJS, TAILWIND, DAISY UI, NEXT UI, CLERK, EXPRESSJS, MONGODB",
+    tools: "NEXTJS, TAILWIND, DAISY UI, NEXT UI, CLERK, EXPRESSJS, GEMINI, MONGODB",
     link: "https://tasky-webb-app.vercel.app/",
   },
   {
     id: 481,
-    image: "./Screenshot 2025-03-07 at 21-10-15 Vite React.png",
-    name: "VoteVerse Web3 - Decentralized Voting DApp",
-    overview:"To promote transparency and fairness in decision-making, I built a decentralized voting application on the blockchain. This DApp ensures secure, tamper-proof voting by leveraging smart contracts, allowing users to create proposals, cast votes, and track results in real time. The goal is to provide a trustless and censorship-resistant voting system for communities and organizations.",
-    tools: "REACTJS, SOLIDITY, HardHat, EthersJs, CSS, TAILWIND, DAISY UI",
-    link: "https://vote-verse-web3.vercel.app/",
+    image: "./Screenshot 2025-06-30 at 10-02-44 Vite React.png",
+    name: "NFT-MINTER - NFT MINTING DApp",
+    overview:"To explore the world of digital collectibles, I developed an NFT minting DApp that allows users to create, buy, and sell unique digital assets. This decentralized application leverages blockchain technology to ensure authenticity and ownership of NFTs, providing a platform for artists and collectors to engage in the growing NFT ecosystem.",
+    tools: "REACTJS, SOLIDITY, HardHat, EthersJs, WAGMI, TANSTACK QUERY, TAILWINDCSS, DAISY UI",
+    link: "https://nft-minter-frontend.vercel.app/",
   },
   {
     id: 482,
     image: "./Screenshot 2025-03-07 at 21-06-38 Vite React.png",
     name: "My-Estate - Full-Stack Real Estate Platform",
     overview:"Understanding the need for a seamless property listing and discovery experience, I built a full-stack real estate platform that connects buyers, sellers, and renters. This application allows users to list properties, search for homes based on preferences, and manage real estate transactions efficiently. With a user-friendly interface and a robust backend, the platform streamlines property management for both individuals and businesses.",
-    tools: "REACTJS, NODEJS, EXPRESSJS, axios, CSS, TAILWIND, DAISY UI, CLERK",
+    tools: "REACTJS, NODEJS, EXPRESSJS, AXIOS, CSS, TAILWIND, DAISY UI, CLERK",
     link: "https://my-estate-wheat.vercel.app/",
-  },  {
+  }
+   ,
+  {
+    id: 481,
+    image: "./Screenshot 2025-06-30 at 10-25-28 Vite React.png",
+    name: "DRIPMINT LANDING PAGE",
+    overview:"To explore the world of digital collectibles, i developed a landing page for a NFT minting DApp that allows users to create, buy, and sell unique digital assets. This decentralized application leverages blockchain technology to ensure authenticity and ownership of NFTs, providing a platform for artists and collectors to engage in the growing NFT ecosystem.",
+    tools: "REACTJS, SOLIDITY, HardHat, EthersJs, CSS, TAILWIND, DAISY UI",
+        link: "https://drip-mint-three.vercel.app/",
+
+  }
+  ,
+  {
+    id: 481,
+    image: "./Screenshot 2025-03-07 at 21-10-15 Vite React.png",
+    name: "VoteVerse Web3 - Decentralized Voting DApp",
+    overview:"To promote transparency and fairness in decision-making, I built a decentralized voting application on the blockchain. This DApp ensures secure, tamper-proof voting by leveraging smart contracts, allowing users to create proposals, cast votes, and track results in real time. The goal is to provide a trustless and censorship-resistant voting system for communities and organizations.",
+    tools: "REACTJS, SOLIDITY, HardHat, EthersJs, CSS, TAILWIND, DAISY UI",
+        link: "https://vote-verse-web3.vercel.app/",
+
+  }, {
     id: 48,
     image: "./localhost_5173_Home.png",
     name: "BoredIntern",

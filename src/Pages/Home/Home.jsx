@@ -48,6 +48,7 @@ export default function Home() {
 </a>
           </span>
           
+          
           <span ><Link className='action_one' to='/projects'>Check out my Works &rarr;</Link></span>
 
         </div>
