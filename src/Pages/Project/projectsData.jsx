@@ -8,6 +8,14 @@ export default [
     tools: "NEXTJS, CSS, SASS, FRAMER MOTION, Lenis-Scroll",
     link: "https://blok-sec-test.vercel.app/",
   },  {
+    id: 222,
+    image: "./Screenshot 2025-08-18 at 10-12-41 Vite React TS.png",
+    name: "Drip Get Ecommerce WebbApp",
+    overview:
+      "A fully functional Ecommerce webapp with an Admin Dashboard crafted with React and Typescript for the frontend devlopment, Nodejs and ExpressJs for the backend and Stripe for a functional payment system. Boasting a modern design with captivating Dark hues,with seamless responsiveness across devices",
+    tools: "REACT, TAILWIND, TYPESCRIPT, NODEJS, EXPRESSJS, STRIPE",
+    link: "https://drip-get-store.vercel.app/",
+  },  {
     id: 122,
     image: "./Screenshot 2025-06-30 at 10-10-53 Vite React.png",
     name: "BabyStory AI",
