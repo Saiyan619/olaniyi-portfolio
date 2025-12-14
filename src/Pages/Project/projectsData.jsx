@@ -17,20 +17,36 @@ export default [
     link: "https://drip-get-store.vercel.app/",
   },  {
     id: 122,
-    image: "./Screenshot 2025-06-30 at 10-10-53 Vite React.png",
-    name: "BabyStory AI",
+    image: "./Screenshot 2025-12-14 at 20-41-31 Solscore.png",
+    name: "Solscore",
     overview:
-      "BabyStory AI is an AI-powered web application that generates personalized baby and kids' stories from simple text prompts.",
-    tools: "React + Vite, TAILWINDCSS, DAISYUI, NODEJS, EXPRESS, MONGODB, GEMINI, ZUSTAND",
-    link: "https://baby-story-ai.vercel.app/",
-  },
-  {
+      "SolScore is a smart contract-powered Prediction protocol that allows users to make predictions on League winners across multiple leagues.",
+    tools: "React + Vite, TAILWINDCSS, Shadcn, Rust, Anchor",
+    link: "https://solscore-v2.vercel.app/",
+  }, {
     id: 58,
     image: "./Screenshot 2024-11-20 at 09-34-30 Screenshot.png",
     name: "Tasky",
     overview:"Are you a manager having issues with creating, organizing and supervising shared tasks to employees?, this is the app that solve those problems.",
     tools: "NEXTJS, TAILWIND, DAISY UI, NEXT UI, CLERK, EXPRESSJS, GEMINI, MONGODB",
     link: "https://tasky-webb-app.vercel.app/",
+  },
+  {
+    id: 481,
+    image: "./Screenshot 2025-12-12 at 23-15-38 solscore.png",
+    name: "SolScore Landing",
+    overview:"Bet USDC on who wins Premier League, La Liga, and Europe's top leagues. Simple picks, transparent odds, instant USDC payouts.",
+    tools: "REACTJS, CSS",
+    link: "https://solscore-website.vercel.app/",
+  },
+   {
+    id: 525,
+    image: "./Screenshot 2025-06-30 at 10-10-53 Vite React.png",
+    name: "BabyStory AI",
+    overview:
+      "BabyStory AI is an AI-powered web application that generates personalized baby and kids' stories from simple text prompts.",
+    tools: "React + Vite, TAILWINDCSS, DAISYUI, NODEJS, EXPRESS, MONGODB, GEMINI, ZUSTAND",
+    link: "https://baby-story-ai.vercel.app/",
   },
   {
     id: 481,

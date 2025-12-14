@@ -53,6 +53,10 @@ export default [{
     name: "Solidity",
     img:"./solidity-icon.png"
     },{
+    id: 15,
+    name: "Rust",
+    img:"./pngwing.com.png"
+    },{
     id: 16,
     name: "EtherJs",
     img:"./ethers-seeklogo.svg"
