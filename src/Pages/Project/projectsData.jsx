@@ -34,7 +34,7 @@ export default [
   {
     id: 481,
     image: "./Screenshot 2025-12-12 at 23-15-38 solscore.png",
-    name: "SolScore Landing",
+    name: "SolScore Website",
     overview:"Bet USDC on who wins Premier League, La Liga, and Europe's top leagues. Simple picks, transparent odds, instant USDC payouts.",
     tools: "REACTJS, CSS",
     link: "https://solscore-website.vercel.app/",
