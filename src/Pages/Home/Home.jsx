@@ -34,7 +34,7 @@ export default function Home() {
       animate={{opacity: 1, x: 20 }}
       exit={{ opacity: 0, y: 0 }}
           transition={{ duration: 0.5, delay: 0.4 }}  className='third_content'>
-          <span>FRONTEND DEVELOPER - WEB3 DEVELOPER</span>
+          <span>FRONTEND DEVELOPER - BLOCKCHAIN DEVELOPER</span>
           <span></span>
         </motion.div>
 
