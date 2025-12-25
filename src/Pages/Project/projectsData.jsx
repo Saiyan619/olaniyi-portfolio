@@ -1,6 +1,6 @@
 export default [
   {
-    id: 22,
+    id: 1,
     image: "./Screenshot (2).png",
     name: "Blok Product Website",
     overview:
@@ -8,7 +8,15 @@ export default [
     tools: "NEXTJS, CSS, SASS, FRAMER MOTION, Lenis-Scroll",
     link: "https://blok-sec-test.vercel.app/",
   },  {
-    id: 222,
+    id: 2,
+    image: "./Screenshot 2025-12-25 at 10-07-52 EnSwapp.png",
+    name: "EnSwapp - WIP",
+    overview:
+      "An automated market maker (AMM) decentralized exchange (DEX) built on the Solana blockchain. EnSwapp enables users to swap SPL tokens directly from their wallets in a secure and efficient manner, leveraging Solana's high throughput and low latency for seamless trading experiences.",
+    tools: "REACT, TAILWIND, TYPESCRIPT, RUST, ANCHOR",
+    link: "https://enswapp.vercel.app/",
+  },  {
+    id: 3,
     image: "./Screenshot 2025-08-18 at 10-12-41 Vite React TS.png",
     name: "Drip Get Ecommerce WebbApp",
     overview:
@@ -16,7 +24,7 @@ export default [
     tools: "REACT, TAILWIND, TYPESCRIPT, NODEJS, EXPRESSJS, STRIPE",
     link: "https://drip-get-store.vercel.app/",
   },  {
-    id: 122,
+    id: 4,
     image: "./Screenshot 2025-12-14 at 20-41-31 Solscore.png",
     name: "Solscore",
     overview:
@@ -24,7 +32,7 @@ export default [
     tools: "React + Vite, TAILWINDCSS, Shadcn, Rust, Anchor",
     link: "https://solscore-v2.vercel.app/",
   }, {
-    id: 58,
+    id: 5,
     image: "./Screenshot 2024-11-20 at 09-34-30 Screenshot.png",
     name: "Tasky",
     overview:"Are you a manager having issues with creating, organizing and supervising shared tasks to employees?, this is the app that solve those problems.",
@@ -32,7 +40,7 @@ export default [
     link: "https://tasky-webb-app.vercel.app/",
   },
   {
-    id: 481,
+    id: 6,
     image: "./Screenshot 2025-12-12 at 23-15-38 solscore.png",
     name: "SolScore Website",
     overview:"Bet USDC on who wins Premier League, La Liga, and Europe's top leagues. Simple picks, transparent odds, instant USDC payouts.",
@@ -40,7 +48,7 @@ export default [
     link: "https://solscore-website.vercel.app/",
   },
    {
-    id: 525,
+    id: 7,
     image: "./Screenshot 2025-06-30 at 10-10-53 Vite React.png",
     name: "BabyStory AI",
     overview:
@@ -49,7 +57,7 @@ export default [
     link: "https://baby-story-ai.vercel.app/",
   },
   {
-    id: 481,
+    id: 8,
     image: "./Screenshot 2025-06-30 at 10-02-44 Vite React.png",
     name: "NFT-MINTER - NFT MINTING DApp",
     overview:"To explore the world of digital collectibles, I developed an NFT minting DApp that allows users to create, buy, and sell unique digital assets. This decentralized application leverages blockchain technology to ensure authenticity and ownership of NFTs, providing a platform for artists and collectors to engage in the growing NFT ecosystem.",
@@ -57,7 +65,7 @@ export default [
     link: "https://nft-minter-frontend.vercel.app/",
   },
   {
-    id: 482,
+    id: 9,
     image: "./Screenshot 2025-03-07 at 21-06-38 Vite React.png",
     name: "My-Estate - Full-Stack Real Estate Platform",
     overview:"Understanding the need for a seamless property listing and discovery experience, I built a full-stack real estate platform that connects buyers, sellers, and renters. This application allows users to list properties, search for homes based on preferences, and manage real estate transactions efficiently. With a user-friendly interface and a robust backend, the platform streamlines property management for both individuals and businesses.",
@@ -66,7 +74,7 @@ export default [
   }
    ,
   {
-    id: 481,
+    id: 10,
     image: "./Screenshot 2025-06-30 at 10-25-28 Vite React.png",
     name: "DRIPMINT LANDING PAGE",
     overview:"To explore the world of digital collectibles, i developed a landing page for a NFT minting DApp that allows users to create, buy, and sell unique digital assets. This decentralized application leverages blockchain technology to ensure authenticity and ownership of NFTs, providing a platform for artists and collectors to engage in the growing NFT ecosystem.",
@@ -76,7 +84,7 @@ export default [
   }
   ,
   {
-    id: 481,
+    id: 11,
     image: "./Screenshot 2025-03-07 at 21-10-15 Vite React.png",
     name: "VoteVerse Web3 - Decentralized Voting DApp",
     overview:"To promote transparency and fairness in decision-making, I built a decentralized voting application on the blockchain. This DApp ensures secure, tamper-proof voting by leveraging smart contracts, allowing users to create proposals, cast votes, and track results in real time. The goal is to provide a trustless and censorship-resistant voting system for communities and organizations.",
@@ -84,7 +92,7 @@ export default [
         link: "https://vote-verse-web3.vercel.app/",
 
   }, {
-    id: 48,
+    id: 12,
     image: "./localhost_5173_Home.png",
     name: "BoredIntern",
     overview:"Recognizing the challenges interns face in finding suitable opportunities, I conceived and developed BoredIntern, a specialized job board exclusively dedicated to internship postings. This platform aims to streamline the internship search process for students and provide businesses with a targeted pool of potential interns.",
@@ -92,7 +100,7 @@ export default [
     link: "https://bored-intern-v2.vercel.app/",
   },
   {
-    id: 8,
+    id: 13,
     image: "./Screenshot 2024-02-01 at 22-03-12 Vite React.png",
     name: "SunStudio Website",
     overview:
@@ -100,28 +108,28 @@ export default [
     tools: "REACTJS, CSS, SASS, FRAMER MOTION",
     link: "https://sun-web-chi.vercel.app/",
   },{
-    id: 282,
+    id: 14,
     image: "./Screenshot 2025-01-01 at 09-01-04 Vite React.png",
     name: "Foo-Dogs Nft website",
     overview:"A NFT website for Foo-Dogs, a collection of 10,000 unique NFTs inspired by the Chinese guardian lions. The website was designed to showcase the collection, provide information on the project, and facilitate the minting process for users. The website was developed using React, CSS, Vite, and EtherJS.",
     tools: "REACTJS, CSS, VITE, ETHERJS",
     link: "https://foodogs-nft.vercel.app/",
   },{
-    id: 283,
+    id: 15,
     image: "./Screenshot 2025-01-01 at 08-58-12 Vite React.png",
     name: "Doogie Memecoin website",
     overview:"A memecoin for the Doogie community, a group of crypto enthusiasts and investors. The website was designed to provide information on the Doogie project, tokenomics, and roadmap. The website was developed using React, CSS, Vite, and EtherJS.",
     tools: "REACTJS, CSS, VITE",
     link: "https://doggie-memecoin-website.vercel.app/",
   },{
-    id: 284,
+    id: 16,
     image: "./Screenshot 2025-01-01 at 09-00-31 Vite React.png",
     name: "Coldfield memecoin website",
     overview:"I developed a comprehensive website's frontend for the coldfield memecoin, serving as the primary digital platform for community engagement, information dissemination, and token acquisition. The website was designed to foster trust, transparency, and excitement around the coldfield project.",
     tools: "REACTJS, CSS, VITE",
     link: "https://coldfield-memecoin-website.vercel.app/",
   },{
-    id: 28,
+    id: 17,
     image: "./allforone.ai_.png",
     name: "All For One Crypto website",
     overview:"I developed a comprehensive website's frontend for the AllForOne cryptocurrency, serving as the primary digital platform for community engagement, information dissemination, and token acquisition. The website was designed to foster trust, transparency, and excitement around the AllForOne project.",
@@ -129,7 +137,7 @@ export default [
     link: "https://allforone.ai/",
   },
   {
-    id: 15,
+    id: 18,
     image: "./Screenshot 2024-02-23 at 14-39-13 Vite React.png",
     name: "Pintrest Clone (Ntrest)",
     overview:"  Recreating the Pinterest experience, my ongoing project features user authentication, pin creation, comments, and profiles. Developed using Firebase, ReactJS, Tailwind CSS, and Daisy UI. Stay tuned for updates as I bring creativity and inspiration to life.",
@@ -137,7 +145,7 @@ export default [
     link: "https://nterest-clone-app.vercel.app/",
   },
   {
-    id: 5,
+    id: 19,
     image: "./Screenshot 2024-02-01 at 22-08-55 Vite React.png",
     name: "NWORLD CHAT APP",
     overview:
@@ -146,7 +154,7 @@ export default [
     link: "https://n-world.vercel.app/",
   },
   {
-    id: 4,
+    id: 20,
     image: "./Screenshot 2024-02-01 at 22-01-06 Vite React.png",
     name: "NIYIFLIXX MOVIE APP V2",
     overview:
@@ -155,7 +163,7 @@ export default [
     link: "https://niyiflixx.vercel.app/",
   },
   {
-    id: 2,
+    id: 21,
     image:
       "./Web capture_20-10-2023_91922_futuristic-ui-website.vercel.app.jpeg",
     name: "Chat-GPT3 Landing Page",
@@ -166,7 +174,7 @@ export default [
   },
   ,
   {
-    id: 9,
+    id: 22,
     image: "./Screenshot 2024-02-02 at 13-43-57 Vite React.png",
     name: "Expense Tracker",
     overview: "This React-based application allows users to easily input and track their expenses and incomes, providing a clear overview of their financial journey.",
@@ -174,7 +182,7 @@ export default [
     link: "https://expense-tracker-ashen-six.vercel.app/",
   } ,
   {
-    id: 7,
+    id: 23,
     image: "./Web capture_20-10-2023_102652_.jpeg",
     name: "N-Houses",
     overview: "A landing page for those who love and appreciate Architecture",
@@ -182,7 +190,7 @@ export default [
     link: "https://saiyan619.github.io/house-website/",
   },
   {
-    id: 1,
+    id: 24,
     image:
       "./Web capture_20-10-2023_91949_react-weather-webapp.vercel.app.jpeg",
     name: "Weather app",
@@ -193,7 +201,7 @@ export default [
   },
   ,
   {
-    id: 3,
+    id: 25,
     image:
       "./Web capture_20-10-2023_92054_movie-app-flax-seven.vercel.app.jpeg",
     name: "Nmovies V1",
@@ -203,7 +211,7 @@ export default [
     link: "https://movie-app-flax-seven.vercel.app/",
   },
   {
-    id: 6,
+    id: 26,
     image: "./Screenshot 2024-02-01 at 22-03-40 Vite React.png",
     name: "TASTY BITE SIMPLE RECIPE APP",
     overview:
