@@ -33,6 +33,13 @@ export default [
     link: "https://solscore-v2.vercel.app/",
   }, {
     id: 5,
+    image: "./Screenshot 2026-01-02 at 14-03-29 Faving.png",
+    name: "Faving",
+    overview:"Full-stack Personal Finance Manager built with secure JWT authentication, multiple accounts, income/expense tracking.",
+    tools: "NEXTJS, TAILWIND, TANSTACK, AXIOS, TYPESCRIPT, NODEJS, JWT, EXPRESSJS, MONGODB",
+    link: "https://faving.vercel.app/",
+  }, {
+    id: 51,
     image: "./Screenshot 2024-11-20 at 09-34-30 Screenshot.png",
     name: "Tasky",
     overview:"Are you a manager having issues with creating, organizing and supervising shared tasks to employees?, this is the app that solve those problems.",
